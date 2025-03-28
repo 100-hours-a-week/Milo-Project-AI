@@ -54,27 +54,19 @@
 
 각 모델의 학습 정확도 및 손실, 검증 정확도는 Streamlit 대시보드로 시각화하였습니다.
 
-![예시](/images/mobile_vs_shuffle.png)  
-<sub>Figure: MobileNetV2 vs ShuffleNetV2 Accuracy Comparison</sub>
+![모델 성능 시각화](/images/mobilenet_train_val_acc_db.png)  
+<sub>Figure: MobileNetV2</sub>
 
 ---
 
 ##  Project Structure
 
 ```
-📁 fruit-veg-cnn
-├── models/
-│   ├── simple_cnn.py
-│   ├── mobilenet_v2.py
-│   └── ...
-├── notebooks/
-│   └── fruit_veg_cnn_comparison.ipynb
-├── data/
-│   └── fruit-and-vegetable-image/
-├── logs/
-│   └── training_logs.db
-├── streamlit_app.py
-└── README.md
+📁 Milo-Project-AI/
+├── README.md
+├── fruit_veg_cnn_comparison.ipynb
+└── images/
+    └── mobilenet_train_val_acc_db.png
 ```
 
 ---
