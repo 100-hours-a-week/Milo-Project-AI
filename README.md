@@ -9,7 +9,7 @@
 본 프로젝트는 **36가지 과일 및 채소 이미지 분류**를 목표로, 다양한 CNN 기반 모델의 성능을 비교하고 효율적인 모델을 선정하는 개인 연구 프로젝트입니다. 
 
 - **목표**: 식재료 자동 인식 기능을 통해 요리 레시피 추천 앱에서의 사용자 입력을 최소화
-- **데이터셋**: Kaggle - Fruits and Vegetables Image Recognition (총 3,825장)
+- **데이터셋**: [Kaggle - Fruits and Vegetables Image Recognition](https://www.kaggle.com/datasets/kritikseth/fruit-and-vegetable-image-recognition) (총 3,825장)
 - **클래스 수**: 36종
 - **주요 모델**: SimpleCNN, VGG16, ResNet50, MobileNetV2, ShuffleNetV2
 
@@ -32,7 +32,7 @@
 
 ##  Tech Stack
 
-- **Python 3.10**
+- **Python 3.12**
 - **PyTorch**
 - **Google Colab (A100 GPU)**
 - **Streamlit**: 학습 시각화 대시보드
